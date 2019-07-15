@@ -1,9 +1,16 @@
+@font-face{
+	font-family:tez;
+	src:url(fuente.ttf);
+}
+
+
 header{
 	color:white;
-	font-size:160px;
+	font-size:280px;
+	font-family: tez;
 	position: relative;
 	right: 700px;
-	top:150px;
+	top:250px;
 }
 
 body{
@@ -11,8 +18,7 @@ body{
 	background: #333;
 	/*display: flex;*/
 	position: relative;
-	left: 1000px;
-	top:150px;
+	left: 990px;
 	min-height: 100vh;
 } 
 
@@ -23,14 +29,12 @@ body{
 }
 
 .cubo{
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	position: relative;
 	transform-style:preserve-3d;
 	animation:girar 5s infinite linear;
 }
-
-
 
 @keyframes girar{
 	from {
@@ -47,31 +51,45 @@ body{
 }
 
 #uno{
-	background: crimson;
+	background: #FF6961;/*red*/
 	transform: translateZ(100px);
 }
 
 #dos{
-	background: orange;
+	background: #FFB861;/*orange*/
 	transform: translateX(100px) rotateY(90deg);
 }
 
 #tres{
-	background: yellow;
+	background:  #fdfd96 ;/*amarillo*/
 	transform: translateZ(-100px);
 }
 
 #cua{
-	background: blue;
+	background:#61F7FF;/*verde*/
 	transform: translateX(-100px) rotateY(90deg);
 }
 
 #cinco{
-	background:green ;
+	background:#87FF8D ;/*celeste */
 	transform: translateY(-100px) rotateX(90deg);
 }
 
 #seis{
 	background:white ;
 	transform: translateY(100px) rotateX(90deg);
+}
+
+.boton{
+	position: relative;
+	top:100px;
+	right:300px;
+        text-decoration: none;
+        padding:5px;
+        font-weight: 400;
+        font-size: 40px;
+        font-family: tez;
+        color: #ffffff;
+        background-color: #1883ba;
+        border-radius: 6px;
 }
