@@ -7,3 +7,7 @@ El uso del espacio tridimensional es una de los temas mas utilizados en la carre
 
 ## Descripción 📌
 Para entender un poco este tema utilize CSS y HTML , para crear una figura 3D en la web , el objetivo es crear una portada de una pagina web y en ella incluir esta figura 3D para ver el uso visual de esta.
+
+## Datos ✒️
+* CURSO : Calculo en Varias Variables
+* PROFESOR: Mg. Jaime Viza 
